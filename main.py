@@ -15,7 +15,7 @@ try:
     else:
         with open("codes.txt", "w") as file:
             for _ in range(opt):
-                rnd = "discord.gift/" + "".join(random.choices(base1, k=24))
+                rnd = "discord.gift/" + "".join(random.choices(base1, k=16))
                 print(rnd)
                 file.write(rnd + "\n")
         print(f"Se han generado {opt} codigos y se han guardado en 'codes.txt'.")
